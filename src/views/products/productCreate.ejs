@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include("../partials/head.ejs", {titulo: "productos"}) %> 
+</head>
+<body>
+   <form action="/products/create" method="POST">
+    <input type="text" name="nombre" placeholder="nombre del prodcuto"><br>
+    <input type="number" name="precio" placeholder="precio del prodcuto"><br>
+    <input type="submit" value="Crear">
+   </form>
+</body>
+</html>
