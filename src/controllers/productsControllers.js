@@ -7,7 +7,8 @@ const productsControllers = {
     },
     create: (req, res) => {
         res.redirect("/products")
-    } 
+    },
+    
 }
 
 
